@@ -1,10 +1,10 @@
-# 🍽️ La Maison — Módulo de Autenticación Reactivo
+# La Maison — Módulo de Autenticación Reactivo
 
 Proyecto desarrollado para la asignatura de **Programación Reactiva** — Fundación Universitaria Católica Lumen Gentium (Unicatólica).
 
 ---
 
-## 📌 Descripción del Proyecto
+## Descripción del Proyecto
 
 Sistema de autenticación reactivo para el restaurante **La Maison**. Permite el acceso seguro al sistema mediante registro, inicio de sesión y control de roles.
 
@@ -14,7 +14,7 @@ El sistema distingue dos tipos de usuarios:
 
 ---
 
-## ⚙️ Stack Tecnológico
+## Stack Tecnológico
 
 | Tecnología | Uso |
 |---|---|
@@ -29,7 +29,7 @@ El sistema distingue dos tipos de usuarios:
 
 ---
 
-## 🗂️ Estructura del Proyecto
+## Estructura del Proyecto
 
 ```
 lamaison-auth/
@@ -69,7 +69,7 @@ lamaison-auth/
 
 ---
 
-## 🗃️ Schema de Base de Datos (MongoDB)
+##  Schema de Base de Datos (MongoDB)
 
 ### Colección `users`
 
@@ -104,7 +104,7 @@ Un usuario puede tener múltiples tokens de recuperación de contraseña.
 
 ---
 
-## 🔗 Endpoints de la API
+## Endpoints de la API
 
 ### Autenticación (`/api/auth`)
 
@@ -126,7 +126,7 @@ Un usuario puede tener múltiples tokens de recuperación de contraseña.
 
 ---
 
-## 🔄 Componente Reactivo
+## Componente Reactivo
 
 Todo el flujo usa programación reactiva con **Project Reactor**:
 
@@ -137,7 +137,7 @@ Todo el flujo usa programación reactiva con **Project Reactor**:
 
 ---
 
-## ▶️ Configuración
+## Configuración
 
 En `src/main/resources/application.properties`:
 
@@ -150,7 +150,7 @@ jwt.expiration=86400000
 
 ---
 
-## 👥 Integrantes
+## Integrantes
 
 - Jhon (Unicatólica — Tec. Soft.)
 - Danilo (Unicatólica — Tec. Soft.)
